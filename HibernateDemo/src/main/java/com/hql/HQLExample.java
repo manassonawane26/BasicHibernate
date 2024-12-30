@@ -13,7 +13,7 @@ public class HQLExample {
         SessionFactory sessionFactory = new Configuration().configure("resources/hibernate.cfg.xml").buildSessionFactory();
         Session session = sessionFactory.openSession();
 
-        // Select Query Example
+        // Select Query Example 
 //        String query = "from Student";
 //        String query = "from Student where city = 'pune'";
 //        String query = "from Student where city = :x";
